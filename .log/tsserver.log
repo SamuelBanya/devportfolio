@@ -1,0 +1,31 @@
+Info 0    [22:10:06.852] Starting TS Server
+Info 1    [22:10:06.909] Version: 4.7.2
+Info 2    [22:10:06.909] Arguments: /usr/bin/node /home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/tsserver.js --logFile /home/sam/hub/devportfolio/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/18731a70cf6fddc4809e27a5a27342f8/tscancellation*
+Info 3    [22:10:06.909] Platform: linux NodeVersion: 19 CaseSensitive: true
+Info 4    [22:10:06.909] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [22:10:06.936] Format host information updated
+Info 6    [22:10:06.953] Search path: /home/sam/hub/devportfolio/js
+Info 7    [22:10:06.955] For info: /home/sam/hub/devportfolio/js/main.js :: No config files found.
+Info 8    [22:10:06.963] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 9    [22:10:08.382] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 1418.1002259999514ms
+Info 10   [22:10:08.382] Project '/dev/null/inferredProject1*' (Inferred)
+Info 11   [22:10:08.382] 	Files (19)
+
+Info 12   [22:10:08.382] -----------------------------------------------
+Info 13   [22:10:08.713] Search path: /home/sam/hub/devportfolio/js
+Info 14   [22:10:08.713] For info: /home/sam/hub/devportfolio/js/modernizr.js :: No config files found.
+Info 15   [22:10:08.713] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 16   [22:10:08.771] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 57.788922999985516ms
+Info 17   [22:10:08.772] Project '/dev/null/inferredProject2*' (Inferred)
+Info 18   [22:10:08.772] 	Files (19)
+
+Info 19   [22:10:08.772] -----------------------------------------------
+Info 20   [22:10:24.047] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 21   [22:10:24.081] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 2 structureChanged: true structureIsReused:: Not Elapsed: 33.52209799992852ms
+Info 22   [22:10:24.081] Project '/dev/null/inferredProject2*' (Inferred)
+Info 23   [22:10:24.081] 	Files (20)
+
+Info 24   [22:10:24.081] -----------------------------------------------
+Info 25   [22:10:26.296] Before ensureProjectForOpenFiles:
+Info 26   [22:10:26.297] After ensureProjectForOpenFiles:
+Info 27   [22:10:26.298] got projects updated in background, updating diagnostics for /home/sam/hub/devportfolio/js/main.js,/home/sam/hub/devportfolio/js/modernizr.js

@@ -1,0 +1,84 @@
+[22:10:07.592] Global cache location '/home/sam/.cache/typescript/4.7', safe file path '/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/typingSafeList.json', types map path /home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/typesMap.json
+[22:10:07.594] Processing cache location '/home/sam/.cache/typescript/4.7'
+[22:10:07.595] Trying to find '/home/sam/.cache/typescript/4.7/package.json'...
+[22:10:07.630] Loaded content of '/home/sam/.cache/typescript/4.7/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.619"},"devDependencies":{"@types/object-assign":"^4.0.30","@types/react":"^18.0.15","@types/react-dom":"^18.0.6","@types/react-router-dom":"^5.3.3","@types/scheduler":"^0.16.2"}}
+[22:10:07.630] Loaded content of '/home/sam/.cache/typescript/4.7/package-lock.json'
+[22:10:07.720] Adding entry into typings cache: 'object-assign' => '/home/sam/.cache/typescript/4.7/node_modules/@types/object-assign/index.d.ts'
+[22:10:07.746] Adding entry into typings cache: 'react' => '/home/sam/.cache/typescript/4.7/node_modules/@types/react/index.d.ts'
+[22:10:07.776] Adding entry into typings cache: 'react-dom' => '/home/sam/.cache/typescript/4.7/node_modules/@types/react-dom/index.d.ts'
+[22:10:07.814] Adding entry into typings cache: 'react-router-dom' => '/home/sam/.cache/typescript/4.7/node_modules/@types/react-router-dom/index.d.ts'
+[22:10:07.868] Adding entry into typings cache: 'scheduler' => '/home/sam/.cache/typescript/4.7/node_modules/@types/scheduler/index.d.ts'
+[22:10:07.869] Finished processing cache location '/home/sam/.cache/typescript/4.7'
+[22:10:07.869] Process id: 4283
+[22:10:07.869] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[22:10:07.869] validateDefaultNpmLocation: false
+[22:10:07.870] Npm config file: /home/sam/.cache/typescript/4.7/package.json
+[22:10:07.870] Updating types-registry npm package...
+[22:10:07.870] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[22:10:21.938]     Succeeded. stdout:
+    
+    changed 1 package, and audited 11 packages in 4s
+
+found 0 vulnerabilities
+
+[22:10:21.938] Updated types-registry npm package
+[22:10:22.011] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/sam/hub/devportfolio/js/main.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/sam/hub/devportfolio/js","kind":"discover"}
+[22:10:22.032] Loaded safelist from types map file '/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/typesMap.json'
+[22:10:22.033] Explicitly included types: []
+[22:10:22.034] Inferred typings from unresolved imports: []
+[22:10:22.034] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/sam/hub/devportfolio/js/bower_components","/home/sam/hub/devportfolio/js/node_modules"]}
+[22:10:22.034] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/sam/hub/devportfolio/js/bower_components","/home/sam/hub/devportfolio/js/node_modules"]}
+[22:10:22.035] DirectoryWatcher:: Added:: WatchInfo: /home/sam/hub/devportfolio/js/bower_components
+[22:10:22.036] DirectoryWatcher:: Added:: WatchInfo: /home/sam/hub/devportfolio/js/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[22:10:22.038] Elapsed:: 2.3267600000835955ms DirectoryWatcher:: Added:: WatchInfo: /home/sam/hub/devportfolio/js/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[22:10:22.039] DirectoryWatcher:: Added:: WatchInfo: /home/sam/hub/devportfolio/js/node_modules
+[22:10:22.039] DirectoryWatcher:: Added:: WatchInfo: /home/sam/hub/devportfolio/js/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[22:10:22.039] Elapsed:: 0.17531300010159612ms DirectoryWatcher:: Added:: WatchInfo: /home/sam/hub/devportfolio/js/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[22:10:22.039] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[22:10:22.040] Response has been sent.
+[22:10:22.040] No new typings were requested as a result of typings discovery
+[22:10:22.040] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/sam/hub/devportfolio/js/modernizr.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/sam/hub/devportfolio/js","kind":"discover"}
+[22:10:22.040] Explicitly included types: []
+[22:10:22.040] Inferred typings from file names: ["modernizr"]
+[22:10:22.040] Inferred typings from unresolved imports: []
+[22:10:22.041] Result: {"cachedTypingPaths":[],"newTypingNames":["modernizr"],"filesToWatch":["/home/sam/hub/devportfolio/js/bower_components","/home/sam/hub/devportfolio/js/node_modules"]}
+[22:10:22.041] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["modernizr"],"filesToWatch":["/home/sam/hub/devportfolio/js/bower_components","/home/sam/hub/devportfolio/js/node_modules"]}
+[22:10:22.041] DirectoryWatcher:: Added:: WatchInfo: /home/sam/hub/devportfolio/js/bower_components
+[22:10:22.041] DirectoryWatcher:: Added:: WatchInfo: /home/sam/hub/devportfolio/js/bower_components 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[22:10:22.041] Elapsed:: 0.022936000023037195ms DirectoryWatcher:: Added:: WatchInfo: /home/sam/hub/devportfolio/js/bower_components 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[22:10:22.041] DirectoryWatcher:: Added:: WatchInfo: /home/sam/hub/devportfolio/js/node_modules
+[22:10:22.043] DirectoryWatcher:: Added:: WatchInfo: /home/sam/hub/devportfolio/js/node_modules 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[22:10:22.043] Elapsed:: 0.10064400010742247ms DirectoryWatcher:: Added:: WatchInfo: /home/sam/hub/devportfolio/js/node_modules 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[22:10:22.044] Installing typings ["modernizr"]
+[22:10:22.044] Npm config file: /home/sam/.cache/typescript/4.7/package.json
+[22:10:22.044] Sending response:
+    {"kind":"event::beginInstallTypes","eventId":1,"typingsInstallerVersion":"4.7.2","projectName":"/dev/null/inferredProject2*"}
+[22:10:22.044] Response has been sent.
+[22:10:22.044] #1 with arguments'["@types/modernizr@ts4.7"]'.
+[22:10:22.045] Exec: /usr/bin/npm install --ignore-scripts @types/modernizr@ts4.7 --save-dev --user-agent="typesInstaller/4.7.2"
+[22:10:23.792]     Succeeded. stdout:
+    
+    added 1 package, and audited 12 packages in 1s
+
+found 0 vulnerabilities
+
+[22:10:23.792] npm install #1 took: 1748 ms
+[22:10:23.793] Installed typings ["@types/modernizr@ts4.7"]
+[22:10:23.795] Installed typing files ["/home/sam/.cache/typescript/4.7/node_modules/@types/modernizr/index.d.ts"]
+[22:10:23.795] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":["/home/sam/.cache/typescript/4.7/node_modules/@types/modernizr/index.d.ts"],"unresolvedImports":[],"kind":"action::set"}
+[22:10:23.795] Response has been sent.
+[22:10:23.795] Sending response:
+    {"kind":"event::endInstallTypes","eventId":1,"projectName":"/dev/null/inferredProject2*","packagesToInstall":["@types/modernizr@ts4.7"],"installSuccess":true,"typingsInstallerVersion":"4.7.2"}
+[22:10:23.795] Response has been sent.
+[22:10:24.183] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/home/sam/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/sam/hub/devportfolio/js/modernizr.js","/home/sam/.cache/typescript/4.7/node_modules/@types/modernizr/index.d.ts"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/sam/hub/devportfolio/js","kind":"discover"}
+[22:10:24.184] Explicitly included types: []
+[22:10:24.184] Inferred typings from file names: ["modernizr"]
+[22:10:24.184] Inferred typings from unresolved imports: []
+[22:10:24.185] Result: {"cachedTypingPaths":["/home/sam/.cache/typescript/4.7/node_modules/@types/modernizr/index.d.ts"],"newTypingNames":[],"filesToWatch":["/home/sam/hub/devportfolio/js/bower_components","/home/sam/hub/devportfolio/js/node_modules"]}
+[22:10:24.185] Finished typings discovery: {"cachedTypingPaths":["/home/sam/.cache/typescript/4.7/node_modules/@types/modernizr/index.d.ts"],"newTypingNames":[],"filesToWatch":["/home/sam/hub/devportfolio/js/bower_components","/home/sam/hub/devportfolio/js/node_modules"]}
+[22:10:24.186] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":["/home/sam/.cache/typescript/4.7/node_modules/@types/modernizr/index.d.ts"],"unresolvedImports":[],"kind":"action::set"}
+[22:10:24.186] Response has been sent.
+[22:10:24.186] No new typings were requested as a result of typings discovery
